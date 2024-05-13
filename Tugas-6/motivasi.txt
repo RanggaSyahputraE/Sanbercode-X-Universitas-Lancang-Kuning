@@ -1,0 +1,7 @@
+Motivasi Saya:
+
+    Motivasi saya mengikuti Bootcamp Sanbercode Laravel Web Development adalah untuk menambah
+skill/wawasan saya dalam bidang  web development terkhususnya di framework Laravel. setiap 
+tugas yang di berikan dan diselesaikan memperkuat keterampilan praktis saya. Bootcamp ini 
+telah membuka pintu menuju peluang baru dan memperkuat keyakinan saya dalam mencapai tujuan saya.
+Saya sangat berterima kasih atas pengalaman berharga yang saya dapatkan dari bootcamp ini.
