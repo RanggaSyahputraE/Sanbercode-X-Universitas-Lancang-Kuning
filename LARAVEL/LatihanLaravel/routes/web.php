@@ -23,3 +23,19 @@ use App\Http\Controllers\AuthController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/register', [AuthController::class, 'showRegisterForm']);
 Route::post('/welcome', [AuthController::class, 'welcome']);
+
+route::get('/master', function(){
+    return view('layout.master');
+});
+
+Route::get('/', function () {
+    return view('dashboard');
+});
+
+Route::get('/table', function () {
+    return view('halaman.table');
+})->name('table');
+
+Route::get('/data-tables', function () {
+    return view('halaman.datatable');
+})->name('data-tables');

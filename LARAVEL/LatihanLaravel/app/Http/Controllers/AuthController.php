@@ -17,4 +17,5 @@ class AuthController extends Controller
         $lastName = $request->input('last_name');
         return view('welcome', ['first_name' => $firstName, 'last_name' => $lastName]);
     }
+
 }
