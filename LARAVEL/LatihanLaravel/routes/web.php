@@ -3,8 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthController;
-
-
+use App\Http\Controllers\CastController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +22,7 @@ use App\Http\Controllers\AuthController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/register', [AuthController::class, 'showRegisterForm']);
 Route::post('/welcome', [AuthController::class, 'welcome']);
+Route::resource('cast', CastController::class);
 
 route::get('/master', function(){
     return view('layout.master');
